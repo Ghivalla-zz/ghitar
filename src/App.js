@@ -1,10 +1,15 @@
+//library
 import React from 'react';
-import HomePage from './components/pages/homepage/homepage.component';
-import './App.css';
 import {Route,Switch} from 'react-router-dom';
-const PedalsPage = () =>(
+//styles
+import './App.css';
+//components
+import HomePage from './components/pages/homepage/homepage.component';
+import ShopPage from './components/pages/shop/shop.component';
+
+const EffectsPage = () =>(
 	<div>
-		<h1>PEDALS PAGE </h1>
+		<h1>EFFECTS PAGE </h1>
 	</div>
 );
 
@@ -13,7 +18,7 @@ function App() {
     <div>
     	<Switch>
     		<Route exact path="/" component={HomePage}/>
-    		<Route path="/pedals" component={PedalsPage} />
+    		<Route path="/shop" component={ShopPage} />
     	</Switch>
     </div>
   );

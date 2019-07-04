@@ -8,10 +8,10 @@ class Directory extends Component{
 		this.state={
 			sections:[
         {
-          title: 'Pedals',
+          title: 'Effects',
           imageUrl: 'https://cdn.pixabay.com/photo/2016/08/15/16/56/guitar-1595862_960_720.jpg',
           id: 1,
-          linkUrl:'pedals'
+          linkUrl:'Effects'
         },
         {
           title: 'Amps',
