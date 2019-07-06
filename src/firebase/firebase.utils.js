@@ -11,6 +11,7 @@ const config = {
     messagingSenderId: "761014519333",
     appId: "1:761014519333:web:ef8576b2fddbb7ff"
 };
+
 export const createUserProfileDocument = async (userAuth, additionalData) =>{
 	if(!userAuth)
 		return;
