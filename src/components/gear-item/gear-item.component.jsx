@@ -16,7 +16,7 @@ const GearItem = ({ item,addItem }) => {
       />
       <div className='gear-footer'>
         <span className='name'>{name}</span>
-        <span className='price'>{price}</span>
+        <span className='price'>{`${price}€`}</span>
       </div>
       <CustomButton onClick={()=>addItem(item)} inverted >
         Add to cart
