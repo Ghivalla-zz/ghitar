@@ -1,25 +1,12 @@
 import React, {Component} from 'react';
-import SHOP_DATA from './shop.data.js';
-import GearPreview from '../../components/gear-preview/gear-preview.component';
+import {Route} from 'react-router-dom';
+import GearsOverview from '../../components/gears-overview/gears-overview.component';
+import GearPage from '../gear/gear.component';
 
-class ShopPage extends Component{
-	constructor(props){
-		super(props);
-		this.state = {
-			collections: SHOP_DATA
-		};
-	}
-	render(){
-		const {collections}=this.state;
-		return(
-			<div className='shop-page'>
-				{
-					collections.map(({ id, ...otherCollectionProps})=>(
-						<GearPreview key={id} {...otherCollectionProps}/>
-					))
-				}
-			</div>
-		)
-	}
-}
+const ShopPage =({match})=>(
+	<div className='shop-page'>
+		<Route exact path={`${match.path}`} component={GearsOverview}/>
+		<Route path={`${match.path}/:gearId`} component={GearPage}/>
+	</div>
+)
 export default ShopPage;

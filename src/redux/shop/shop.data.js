@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  effects: {
     id: 1,
     title: 'Effects',
     routeName: 'Effects',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  amps: {
     id: 2,
     title: 'Amps',
     routeName: 'amps',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  accessories: {
     id: 3,
     title: 'Accessories',
     routeName: 'accessories',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  guitars: {
     id: 4,
     title: 'Guitars',
     routeName: 'guitars',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  basses: {
     id: 5,
     title: 'Basses',
     routeName: 'basses',
@@ -244,5 +244,5 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+}
 export default SHOP_DATA;
