@@ -19,18 +19,18 @@ const INITIAL_STATE = {
           linkUrl:'shop/accessories'
         },
         {
-          title: 'Guitars',
+          title: 'Electric',
           imageUrl: 'https://images.pexels.com/photos/165971/pexels-photo-165971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           size: 'large',
           id: 4,
-          linkUrl:'shop/guitars'
+          linkUrl:'shop/electric'
         },
         {
-          title: 'Basses',
-          imageUrl: 'https://cdn.pixabay.com/photo/2015/10/20/07/34/bass-997349_960_720.jpg',
+          title: 'Accoustic',
+          imageUrl: 'https://t4.ftcdn.net/jpg/02/38/20/31/240_F_238203139_aHnKVip8dNgBgAeHk6UArg5zLPxH0gJQ.jpg',
           size: 'large',
           id: 5,
-          linkUrl:'shop/basses'
+          linkUrl:'shop/accoustic'
         }
     ]
 }

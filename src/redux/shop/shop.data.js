@@ -6,55 +6,55 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: 'BOSS RC-3',
+        name: 'Boss RC-3',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/ROLAND+RC+3.JPG',
         price: 133
       },
       {
         id: 2,
-        name: 'IBANEZ TUBE SCREAMER TUBE SCREAMER TS9',
+        name: 'Ibanez TS9',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/2550300553003.JPG',
         price: 128
       },
       {
         id: 3,
-        name: 'DUNLOP CRY BABY 1999 GCB95N',
+        name: 'Dunlop cry baby 1999',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/CRY+BABY.JPG',
         price: 99
       },
       {
         id: 4,
-        name: 'ELECTRO HARMONIX BIG MUFF US',
+        name: 'Electro Harmonix Big Muff',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/EHX+BIGMUFFUS.JPG',
         price: 88
       },
       {
         id: 5,
-        name: 'STRYMON BIG SKY REVERB',
+        name: 'Strymon Big Sky',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/STRYMON+BIGSKY.JPG',
         price: 499
       },
       {
         id: 6,
-        name: 'DUNLOP JIMI HENDRIX FUZZ FACE',
+        name: 'Dunlop Fuzz Face',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/MDU+JHF1.JPG',
         price: 189
       },
       {
         id: 7,
-        name: 'PROCO RAT2 DISTORTION PEDAL',
+        name: 'Proco Rat2',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/PROCO+PRORAT+RAT+2+DISTORSION.JPG',
         price: 78
       },
       {
         id: 8,
-        name: 'DIGITECH WHAMMY5',
+        name: 'Digitech Whammy5',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/DIGITECH+WHAMMY5.JPG',
         price: 150
       },
       {
         id: 9,
-        name: 'DUNLOP M102 DYNACOMP',
+        name: 'Dunlop M102 Dynacomp',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/DUNLOP+PED+DYNA+COMP.JPG',
         price: 99
       }
@@ -67,51 +67,51 @@ const SHOP_DATA = {
     items: [
       {
         id: 10,
-        name: 'MARSHALL 1959 SUPER LEAD PLEXI',
+        name: 'Marshall 1959 SLP',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMV-1959SLP.JPG',
         price: 2269
       },
       {
         id: 11,
-        name: 'FENDER 65 TWIN REVERB',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/F021-7360-000.JPG',
-        price: 1739
+        name: 'Marshall JVM210C 2X12 100W',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMV+JVM210C.JPG',
+        price: 1795
       },
       {
         id: 12,
-        name: 'MESA BOOGIE DUAL RECTIFIER CHROME PANEL',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMB-2DR1X.JPG',
-        price: 3398
+        name: 'Marshall 1960AHW',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMV+1960AHW.JPG',
+        price: 999
       },
       {
         id: 13,
-        name: 'VOX AC30C2 CUSTOM',
+        name: 'Vox AC30C2 CUSTOM',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/MVO+AC30C2.JPG',
         price: 799
       },
       {
         id: 14,
-        name: 'MARSHALL JCM800 2203',
+        name: 'Marshall JCM800 2203',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMV-2203.JPG',
         price: 1652
       },
       {
         id: 15,
-        name: 'FENDER HOT ROD DELUXE IV BLACK 230V EU',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/FENDER+2231206000.JPG',
-        price: 849
+        name: 'Marshall AS50D',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/MARSHALL+AS50D.JPG',
+        price: 299
       },
       {
         id: 16,
-        name: 'ORANGE ROCKERVERB RK50C112',
+        name: 'Orange RK50C112',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/ORANGE+OR3RK50C112.JPG',
         price: 2275
       },
       {
         id: 17,
-        name: 'MESA BOOGIE NEW MARK V (FIVE) 90,45,10W',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/MMB+1MV1X.JPG',
-        price: 4085
+        name: 'Boss Acoustic Singer Pro',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/ACOUSTIC+SINGER+PRO.JPG',
+        price: 699
       }
     ]
   },
@@ -122,124 +122,118 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: 'GIBSON HISTORIC REPLICA LES PAUL CASE HAND-AGED',
+        name: 'Gibson Les Paul Case',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/GIBSON+ASCSCASE+AG.JPG',
         price: 549
       },
       {
         id: 19,
-        name: 'FENDER G&G PRECISION BASS STANDARD HARDSHELL CASE, BLACK WITH BLACK',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/FMIC+0996161306.JPG',
-        price: 299
+        name: 'Dunlop ADU 225',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/ADU+225.JPG',
+        price: 35
       },
       {
         id: 20,
-        name: 'DUNLOP 418P100 PACK 12 TORTEX STANDARD 1 MM',
+        name: 'Dunlop Pack 12 Tortex Standard 1mm',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/ADU+418P100.JPG',
         price: 5
       },
       {
         id: 21,
-        name: 'LEVY S 6.4 CM SNAKE LEATHER BROWN',
+        name: 'Levys 6.4 cm Snake Leather Brown',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/LEVYS+LPC17ES-BRN.JPG',
         price: 209
       },
       {
         id: 22,
-        name: 'DNA GUITAR GEAR D&A HYDRA STAND FOR 3 GUITARS',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/DNAGUITARGEAR+HYDRA.JPG',
+        name: `D'addario EJ16-10P 12-53 Light Phosphore Bronze`,
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/DADDARIO+EJ16+10P.JPG',
         price: 159
       }
     ]
   },
-  guitars: {
+  electric: {
     id: 4,
-    title: 'Guitars',
-    routeName: 'guitars',
+    title: 'Electric',
+    routeName: 'electric',
     items: [
       {
         id: 23,
-        name: 'GIBSON 1963 LES PAUL SG CUSTOM',
+        name: 'Gibson SG 1963 CUSTOM',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+SGC63VOCWGM1.JPG',
         price: 5999
       },
       {
         id: 24,
-        name: 'GIBSON 1957 LES PAUL CUSTOM',
+        name: 'Gibson LP 1957 CUSTOM',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+LPB357VOEBBG1.JPG',
         price: 6399
       },
       {
         id: 25,
-        name: 'GIBSON 60 LES PAUL STANDARD ROYAL',
+        name: 'Gibson LP 1960',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+LPR60VORYTNH1.JPG',
         price: 6299
       },
       {
         id: 26,
-        name: 'GIBSON CS-356 FADED CHERRY',
+        name: 'Gibson CS-356',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+CS356FCGH1.JPG',
         price: 4205
       },
       {
         id: 27,
-        name: 'FENDER AMERICAN ELITE TELECASTER',
+        name: 'Fender American Elite Telecaster',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/FMIC+0114212710.JPG',
         price: 1844
       },
       {
         id: 28,
-        name: 'FENDER AMERICAN PROFESSIONAL STRATOCASTER',
+        name: 'Fender American Professional Stratocaster',
         imageUrl: 'https://www.woodbrass.com/images/woodbrass/FMIC+0113012705.JPG',
         price: 1435
-      },
-      {
-        id: 29,
-        name: 'PAUL REED SMITH CUSTOM 24 FLOYD',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/ADAGIO+055369.JPG',
-        price: 4649
       }
     ]
   },
-  basses: {
+  accoustic: {
     id: 5,
-    title: 'Basses',
-    routeName: 'basses',
+    title: 'Accoustic',
+    routeName: 'accoustic',
     items: [
       {
         id: 30,
-        name: 'YAMAHA BBNE2 NATHAN EAST BLACK',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/YAMAHA+GBBNE2BL.JPG',
-        price: 4259
+        name: 'Martin D41',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GMA+D+41.JPG',
+        price: 5499
       },
       {
         id: 31,
-        name: 'MUSIC MAN STE5HHH-WH-WH-R-W-W-C',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GMM+STE5HH+WH+R+W+C.JPG',
-        price: 2765
+        name: 'Martin 00028EC',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GMA+000+28EC.JPG',
+        price: 4196
       },
       {
         id: 32,
-        name: 'FENDER AMERICAN ORIGINAL 70S JAZZ BASS MN NAT',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/FENDER+0190142821.JPG',
-        price: 2199
+        name: 'Gibson J-200',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+SJ20VSG19.JPG',
+        price: 4799
       },
       {
         id: 33,
-        name: 'GIBSON THUNDERBIRD BASS EBONY',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+BAT400EBCH1.JPG',
+        name: 'Taylor 914CE',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/TAYLOR+914CE+V+CLASS+RW+2018.JPG',
         price: 2199
       },
       {
         id: 34,
-        name: 'FENDER AMERICAN PROFESSIONAL JAZZ BASS',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/FMIC+0193950700.JPG',
+        name: 'Gibson Hummingbird',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/GBI+SSHBVSN19.JPG',
         price: 2049
       },
       {
         id: 35,
-        name: 'FENDER AMERICAN ORIGINAL 60S',
-        imageUrl: 'https://www.woodbrass.com/images/woodbrass/FENDER+0190120800.JPG',
+        name: 'Guild F F512',
+        imageUrl: 'https://www.woodbrass.com/images/woodbrass/380-2900-821.JPG',
         price: 1725
       }
     ]
